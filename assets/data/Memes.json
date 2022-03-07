@@ -1,0 +1,19 @@
+{
+    "memes": [
+        "saladCat",
+        "doge",
+        "distracted",
+        "audience",
+        "AmericaChopper",
+        "sadCat"
+    ],
+    "quotes":
+    {
+        "saladCat": "\"Write comments!\" \n \"But my code \ncan run properly.\" ",
+        "doge": "Hardcore coders using vim \nVs\n Me using vim",
+        "distracted": "<-Cyberpunk 2077 \n ->Me,  Courseworks",
+        "audience": "**Cwk2 deadline delayed.**\n<-Me like",
+        "AmericaChopper": "\"You need to save dic file\n on you Cwk1\" \n \"Why!\"",
+        "sadCat": "Damedane \nDamenanoyo \nBaka mitai"
+    }
+}

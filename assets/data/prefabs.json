@@ -1,0 +1,133 @@
+{
+    "prefabs":
+    [
+        {
+            "name": "Player",
+            "tag": "player",
+            "position": "0,60",
+            "rotation": "0,0",
+            "size":"60,40",
+            "shape": 2,
+            "gravity":360,
+            "source": "./assets/images/nyan_cat.png",
+            "isDynamic": true,
+            "frameCount": 12,
+            "components":
+            [
+                {
+                    "__type__":"Player",
+                    "InitialSpeed":240,
+                    "InitialHealth":10,
+                    "JumpVelocity": 240
+                },
+                {
+                    "__type__":"Collider",
+                    "rigid":true,
+                    "width":50
+                },
+                {
+                    "__type__":"MapGenerator",
+                    "possibilities":{
+                        "saladCat_0": 1,
+                        "saladCat_1": 1,
+                        "doge_0": 1,
+                        "doge_1": 1,
+                        "distracted_0": 1,
+                        "distracted_1": 1,
+                        "audience_0": 1,
+                        "audience_1": 1,
+                        "AmericaChopper_0": 1,
+                        "AmericaChopper_1": 1,
+                        "sadCat_0": 1,
+                        "sadCat_1": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "horizontal_s",
+            "tag": "ground",
+            "size":"40,10",
+            "shape": 1,
+            "gravity":0,
+            "components":[
+                {
+                    "__type__": "Collider"
+                }
+            ]
+        },
+        {
+            "name": "horizontal_m",
+            "tag": "ground",
+            "size":"60,10",
+            "shape": 1,
+            "gravity":0,
+            "components":[
+                {
+                    "__type__": "Collider"
+                }
+            ]
+        },
+        {
+            "name": "horizontal_l",
+            "tag": "ground",
+            "size":"100,10",
+            "shape": 1,
+            "gravity":0,
+            "components":[
+                {
+                    "__type__": "Collider"
+                }
+            ]
+        },
+        {
+            "name": "verticle_s",
+            "tag": "wall",
+            "size":"10,30",
+            "shape": 1,
+            "gravity":0,
+            "components":[
+                {
+                    "__type__": "Collider"
+                }
+            ]
+        },
+        {
+            "name": "verticle_h",
+            "tag": "wall",
+            "size":"10,60",
+            "shape": 1,
+            "gravity":0,
+            "components":[
+                {
+                    "__type__": "Collider"
+                }
+            ]
+        },
+        {
+            "name": "trap_1",
+            "tag": "trap",
+            "size":"15,15",
+            "shape": 0,
+            "gravity":0,
+            "components":[
+                {
+                    "__type__": "Collider"
+                }
+            ]
+        },
+        {
+            "name": "meme",
+            "tag": "meme",
+            "size":"48,48",
+            "shape": 2,
+            "gravity": 980,
+            "components":[
+                {
+                    "__type__": "Collider",
+                    "rigid":true
+                }
+            ]
+        }
+    ]
+}
